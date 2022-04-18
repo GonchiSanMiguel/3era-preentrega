@@ -1,0 +1,18 @@
+#botonera{
+	background-color: $navColor;
+	font-size: $textMd;
+	div{
+		ul{
+		padding: 5px;
+			li a{
+			color: $mainColor;
+			&:hover{
+				color: $secondColor;
+				} 
+			}	
+		}
+	}
+	button{
+		color: $mainColor;
+	}
+}

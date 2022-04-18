@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+#botonera {
+  background-color: #CA9E64;
+  font-size: 1.25rem; }
+  #botonera div ul {
+    padding: 5px; }
+    #botonera div ul li a {
+      color: black; }
+      #botonera div ul li a:hover {
+        color: white; }
+  #botonera button {
+    color: black; }
+
+body {
+  background-color: black; }
+  body section article {
+    color: white; }
+  body section iframe {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+h1 {
+  font-size: 2.5rem;
+  color: goldenrod;
+  text-decoration: underline;
+  padding: 10px; }
+
+h2 {
+  font-size: 1.7rem;
+  color: white; }
+
+h3 {
+  font-size: 1.5rem;
+  color: whitesmoke; }
+
+main section div {
+  margin-top: 40px;
+  padding: 10px 50px 10px 50px; }
+  main section div p {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    padding: auto;
+    font-family: Quicksand; }
+
+#carta content {
+  padding: auto; }
+  #carta content h1 {
+    text-align: center;
+    margin-top: 20px; }
+  #carta content div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+.card {
+  border-radius: 40px;
+  border-width: 5px;
+  border-color: black;
+  background-color: #D8AC4F; }
+
+.btn-primary {
+  background-color: goldenrod;
+  border: none; }
+
+#formCV {
+  background-color: #333333;
+  padding: 0px 10px 20px 40px; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white; }
+  footer div a {
+    text-decoration: none;
+    margin: 40px;
+    padding: 5px; }
+  footer h3 {
+    font-size: 1.5rem;
+    margin: 30px auto; }
+  footer h4, footer h5 {
+    font-size: 1rem;
+    margin: 50px 10px auto; }
+  footer h5 {
+    margin-bottom: 10px; }
